@@ -275,7 +275,7 @@ class _ChatScreenState extends State<ChatScreen> {
                               ),
                               child: Column(
                                 children: [
-                                  Icon(ar['icon'], color: selected ? AppColors.primary : Colors.white38, size: 28),
+                                  Icon(ar['icons'], color: selected ? AppColors.primary : Colors.white38, size: 28),
                                   const SizedBox(height: 2),
                                   Text(ar['label'], style: TextStyle(color: selected ? AppColors.primary : Colors.white54, fontSize: 12)),
                                 ],
